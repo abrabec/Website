@@ -1,0 +1,107 @@
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+body{
+margin: 0;
+padding: 0;
+background: url(Images/swirl4.jpg) no-repeat;
+background-size: auto;
+font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: white;
+}
+
+p{
+  text-align: center;
+  width:auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+font-size: 36px;
+}
+
+
+h2{
+  text-align: center;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+img{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ccc;
+}
+
+
+#main_nav{
+  text-align: center;
+}
+
+
+#main_nav li {
+      /* background-color: grey;
+      border: 0.25em solid black; */
+      padding: 0.1em;
+      margin: 0.1em;
+display: inline;
+      text-align: center;
+}
+
+.fancy {
+  width: 650px;
+  padding: 40px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  margin:auto;
+  margin-top: 2.5%;
+  color: white;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fancy img{
+  border-radius: 50px;
+}
+
+.button{
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+transition-duration: 0.4s;
+padding: 10px 15px;
+margin: 0px;
+font-size: 16px;
+cursor: pointer;
+background: rgba(0,0,0,0.5);;
+color: white;
+border: .2em solid #a5bcc7;
+}
+
+.button:hover{
+background-color: #a5bcc7;
+color: black;
+}
